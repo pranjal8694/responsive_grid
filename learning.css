@@ -1,0 +1,76 @@
+
+
+	body {
+	    background-color: #F5AB35;
+	}
+
+	@media only screen and (max-width: 500px) {
+	    body {
+	        background-color: lightblue;
+	    }
+	    /* For desktop: */
+
+	}
+
+	/*#F5AB35;*/
+	#youwilllearn{
+		color: white;
+		text-align: center;
+		font-family: "Lato", sans-serif;
+		font-weight: 300;
+
+	}
+
+	.maindiv{
+		/*margin: 10px 100px 100px 100px;*/
+		text-align: center;
+	}
+
+	.skillcontent{
+		background-color: white;
+		display: inline-block;
+		box-sizing: border-box;
+		/*min-width: 20px;*/
+		padding: 19px;
+		margin:  5px;
+		background-color: #f5f5f5;
+		border:  1px solid #e3e3e3;
+		border-radius: 10px;
+		text-align: center;
+		height: 300px;
+		width: 25%;
+	}
+
+	.skillcontent .skilllogo img{
+		max-height: 5em;
+		min-height: 5em;
+		/*max-width: 5em;*/
+		margin: auto;
+
+		box-sizing: border-box;
+	}
+
+	.skillcontent .skilltext{
+		font-family: "Lato", sans-serif;
+		font-size: 14px;
+		text-align: center;
+		margin-top: -20px;
+
+	}
+
+	.skillcontent .skillpara{
+		font-weight: 200px;
+		min-height: 5em;
+		max-width: 80%;
+		margin: auto;
+	}
+	p{
+		text-align: center;
+		margin: 0px;
+	}
+
+	@media only screen and (max-width: 800px) {
+		.skillcontent{
+			width:100%;
+		}
+	}
